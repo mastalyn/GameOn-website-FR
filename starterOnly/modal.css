@@ -107,7 +107,6 @@ img {
     margin-top: -15px;
   }
 } 
-
 main {
   font-size: 130%;
   font-weight: bolder;
@@ -457,7 +456,7 @@ input[data-error]::after {
   z-index: 1;
 }
 .hero-headline {
-  font-size: 6rem;
+  font-size: 40px;
   font-weight: normal;
   white-space: nowrap;
 }
@@ -522,7 +521,7 @@ footer {
   .hero-text {
     width: unset;
     margin-top: 17px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .hero-img img {
     border-radius: 10px;
@@ -571,7 +570,7 @@ footer {
 .formData.success input {
   border: 4px solid #74ee9a;
 }
-/*erreur formulair*/
+
 .formData.sucess input {
   border: none;
 }
