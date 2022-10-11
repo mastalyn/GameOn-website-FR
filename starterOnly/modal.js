@@ -55,14 +55,8 @@ function launchOtherModal(){
 
  //Regex
  const regexNomPrenom = /^[a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ]{2,}$/;
- const regexEmail = /\S+@\S+\.\S+/;
+ const regexEmail =/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
  const regexQuantity = /^[1-9]?[0-9]{1,1}$/;
-
-
-
-
-
-
 
  
 // Fonction Messages d'erreurs 
@@ -90,8 +84,7 @@ function launchOtherModal(){
 const isValidPrenom = prenom=>{
  
 
-  
- //return l'objet html inpt ''dans prenom en min
+ 
 
    return regexNomPrenom.test(String(prenom.value).toLowerCase());
   
